@@ -307,6 +307,7 @@ ol {
   cursor: pointer;
   line-height: 21.6px;
   transition: background-color 0.3s ease, text-decoration 0.3s ease;
+  height: 34px;
 }
 
 .button:hover {
@@ -329,16 +330,13 @@ ol {
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
-  height: 34px;
   font-weight: 700;
   font-size: 18px;
 }
  
-
 .more-button {
   width: calc(100% - 3px);
   margin-right: 3px;
-  height: 34px;
   cursor: pointer;
   font-weight: 700;
   font-size: 18px;
