@@ -196,16 +196,17 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  
 }
 
 .content__list-item {
   padding-left: 3px;
   padding-right: 3px;
+  margin-bottom: 30px;
 }
 
 .content__list-item:last-child {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 /* Карточка видео */
@@ -262,6 +263,7 @@ ol {
 }
 
 .content__card-link {
+  display: block;
   margin-bottom: 30px;
   text-decoration: none;
   color: inherit;
@@ -277,6 +279,7 @@ ol {
   text-decoration-style: solid;
   text-decoration-skip-ink: none;
   text-decoration-thickness: auto;
+  cursor: pointer;
 }
 
 .content__card-link:focus {
@@ -289,6 +292,15 @@ ol {
 
 .content__card-link_current {
   background-color: rgba(84, 80, 80, 1);
+}
+
+.content__card-link_current:focus {
+  outline: none;
+}
+
+.content__card-link_current:focus-visible {
+  outline: 1px #fff solid;
+  outline-offset: 2px;
 }
 
 /* Утилитарные классы */
