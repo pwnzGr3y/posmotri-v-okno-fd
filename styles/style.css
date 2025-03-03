@@ -199,6 +199,7 @@ ol {
 }
 
 .content__list-item {
+  margin-bottom: 30px;
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -262,7 +263,6 @@ ol {
 
 .content__card-link {
   display: block;
-  margin-bottom: 30px;
   text-decoration: none;
   color: inherit;
   cursor: pointer;
